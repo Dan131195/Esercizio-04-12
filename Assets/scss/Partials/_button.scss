@@ -1,0 +1,28 @@
+@import '../Partials/colors';
+
+$button1: #0e6cff;
+$button2: #ff8700;
+$button3: #4caf50;
+
+#btn1 {
+    background-color: $button1;
+}
+
+#btn2 {
+    background-color: $button2;
+}
+
+#btn3 {
+    background-color: $button3;
+}
+
+#buttons {
+    margin-top: 20px;
+}
+
+#btn1, #btn2, #btn3 {
+    color: $text;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px;
+}

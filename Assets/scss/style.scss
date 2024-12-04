@@ -1,0 +1,72 @@
+@use "Partials/reset";
+@use "Partials/colors";
+@use "Partials/button";
+
+nav {
+    width: 80%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#logo {
+    width: 30%;
+}
+
+#navList ul li {
+    display: inline;
+    margin: 10px;
+}
+
+#hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    height: 350px;
+}
+
+#title {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    height: 100%;
+    width: 60%;
+    position: absolute;
+    left: 0;
+    top: 50px;
+}
+
+h1 {
+    font-size: 72px;
+    line-height: 1;
+    font-weight: 900;
+}
+
+#imgTitle {
+    width: 30%;
+    position: absolute;
+    top: 50px;
+    right: 0;
+}
+
+#computer {
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid white;
+}
+
+#cards {
+    figure {
+        display: flex;
+        justify-content: space-evenly;
+        img {
+            width: 23%;
+            border-radius: 20px;
+        }
+    }
+}
